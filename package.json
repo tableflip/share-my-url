@@ -1,0 +1,21 @@
+{
+  "name": "sharemyurl",
+  "version": "0.1.0",
+  "description": "Generate share buttons for facebook, twitter, google+ and pinterest\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && istanbul cover tape test.js"
+  },
+  "keywords": [
+    "social",
+    "share",
+    "links"
+  ],
+  "author": "Bernard Mordan <bernard@tableflip.io> (http://github.com/bmordan)",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.17",
+    "standard": "^4.5.1",
+    "tape": "^4.0.0"
+  }
+}
