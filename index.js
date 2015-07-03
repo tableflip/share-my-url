@@ -17,7 +17,7 @@ var linkfor = {
     if (opts.t) share.t = opts.t
     return 'https://www.facebook.com/sharer/sharer.php?' + qs.stringify(share)
   },
-  google: function (url, opts) {
+  googleplus: function (url, opts) {
     var share = {
       url: url
     }

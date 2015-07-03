@@ -23,12 +23,12 @@ test('facebook link', function (t) {
 test('google link', function (t) {
   t.plan(2)
   var myLink = 'https://nodejs.org'
-  var url = share('google', myLink)
+  var url = share('googleplus', myLink)
   var urlParsed = urlParse(url, true, true)
 
   t.equal(urlParsed.query.url, myLink, 'url is added to the google url')
   t.notEqual(urlParsed.hostname.indexOf('google.com'), -1)
-  console.log('google', url)
+  console.log('googleplus', url)
   t.end()
 })
 test('twitter link', function (t) {
