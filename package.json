@@ -18,5 +18,13 @@
     "istanbul": "^0.3.17",
     "standard": "^4.5.1",
     "tape": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableflip/share-my-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tableflip/share-my-url/issues"
+  },
+  "homepage": "https://github.com/tableflip/share-my-url#readme"
 }
