@@ -40,3 +40,5 @@ var linkfor = {
     return 'https://twitter.com/intent/tweet?' + qs.stringify(share)
   }
 }
+
+linkfor['google+'] = linkfor.googleplus
