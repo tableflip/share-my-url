@@ -33,7 +33,7 @@ var linkfor = {
   },
   twitter: function (url, opts) {
     var share = {
-      source: url
+      url: url
     }
     if (opts.text) share.text = opts.text
     if (opts.via) share.via = opts.via
