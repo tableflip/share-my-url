@@ -39,7 +39,7 @@ test('twitter link', function (t) {
   var url = share('twitter', myLink, {text: myTitle, via: myHandle})
   var urlParsed = urlParse(url, true, true)
 
-  t.equal(urlParsed.query.source, myLink, 'source is added to the twitter url')
+  t.equal(urlParsed.query.url, myLink, 'url param is added to the twitter url')
   t.equal(urlParsed.query.text, myTitle, 'title is added to the twitter url')
   t.equal(urlParsed.query.via, myHandle, 'testTwitter handle is added to the twitter url')
   t.notEqual(urlParsed.hostname.indexOf('twitter.com'), -1)
