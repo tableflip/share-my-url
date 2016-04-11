@@ -1,10 +1,10 @@
 {
   "name": "share-my-url",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate share buttons for facebook, twitter, google+ and pinterest",
   "main": "index.js",
   "scripts": {
-    "test": "standard && istanbul cover tape test.js"
+    "test": "standard && istanbul cover test.js"
   },
   "keywords": [
     "social",

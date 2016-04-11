@@ -54,9 +54,9 @@ test('pinterest link', function (t) {
   var url = share('pinterest', myLink, {description: myDescription, media: myMedia})
   var urlParsed = urlParse(url, true, true)
 
-  t.equal(urlParsed.query.url, myLink, 'source is added to the twitter url')
-  t.equal(urlParsed.query.description, myDescription, 'title is added to the twitter url')
-  t.equal(urlParsed.query.media, myMedia, 'handle is added to the twitter url')
+  t.equal(urlParsed.query.url, myLink, 'url is added to the pintrest link')
+  t.equal(urlParsed.query.description, myDescription, 'description is added to the pintrest link')
+  t.equal(urlParsed.query.media, myMedia, 'media is added to the pintrest link')
   t.notEqual(urlParsed.hostname.indexOf('pinterest.com'), -1)
   console.log('pinterest', url)
   t.end()
