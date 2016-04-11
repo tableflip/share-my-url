@@ -1,6 +1,6 @@
 {
   "name": "share-my-url",
-  "version": "0.1.1",
+  "version": "0.2.2",
   "description": "Generate share buttons for facebook, twitter, google+ and pinterest",
   "main": "index.js",
   "scripts": {
